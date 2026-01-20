@@ -4,7 +4,7 @@
 Este projeto foca no desenvolvimento de uma aplicação de **Realidade Aumentada (AR)** para os óculos **Epson Moverio BT-300**. O objetivo principal é a visualização em tempo real de dados de tensão e corrente adquiridos via hardware da **National Instruments (NI)** e processados via **LabVIEW**, permitindo o monitoramento de máquinas de forma interativa através de marcadores (QR Codes).
 
 ## 2. Estado Atual do Projeto
-O projeto foi recebido com uma base funcional voltada para a visualização de dados estáticos.
+O projeto atual conta uma base funcional voltada para a visualização de dados estáticos.
 
 ### Estrutura de Software (Unity/Vuforia)
 * **Integração AR:** O Vuforia está configurado e realizando o rastreio (tracking) de marcadores com sucesso.
@@ -16,7 +16,7 @@ O projeto foi recebido com uma base funcional voltada para a visualização de d
 
 ### Validação de Hardware
 * **Plataforma de Saída:** Epson Moverio BT-300 (SO Android).
-* **Estação de Trabalho:** Dell G15 5530 (Desenvolvimento e Build).
+* **Estação de Trabalho:** Notebook (Desenvolvimento e Build).
 
 ## 3. Atividades em Execução
 O foco atual é a migração da arquitetura de dados estáticos para um sistema dinâmico.
