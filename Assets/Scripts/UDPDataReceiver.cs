@@ -31,6 +31,7 @@ public class UDPDataReceiver : MonoBehaviour
                 IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, 0);
                 byte[] data = client.Receive(ref anyIP); // Aguarda o pacote do LabVIEW
                 lastReceivedPacket = Encoding.UTF8.GetString(data);
+                Debug.Log("Recebido do LabVIEW: " + lastReceivedPacket);
                 dataUpdate = true; // Avisa que chegou um dado novo
             }
             catch (Exception e)
